@@ -1,0 +1,246 @@
+.row {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    top: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    color: #00b39b !important;
+}
+
+body {
+    font-family: Roboto, Arial, sans-serif;
+    color: #747474;
+    text-align: center;
+}
+
+.nav a {
+    color: #747474;
+}
+
+.nav a:hover {
+    color: #00b39b;
+}
+
+.active a {
+    color: #00b39b;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-flow: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container h1 {
+    font-size: 2.125rem;
+    color: #00b39b;
+    margin: 20px;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    font-size: 16px;
+}
+
+.patient {
+    background: #00ccb1;
+    border-radius: 10px;
+    color: blanchedalmond;
+    width: 25%;
+    margin: 10px;
+    font-size: 24px;
+    padding: 20px;
+}
+
+.doctors {
+    background: #3d83df;
+    border-radius: 10px;
+    color: blanchedalmond;
+    width: 25%;
+    margin: 10px;
+    font-size: 24px;
+    padding: 20px;
+}
+
+.clinics {
+    background: #1b2734;
+    border-radius: 10px;
+    color: blanchedalmond;
+    width: 25%;
+    margin: 10px;
+    font-size: 24px;
+    padding: 20px;
+}
+
+.sections {
+    display: flex;
+    justify-content: center;
+}
+
+.midsection {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.midsection h1 {
+    color: #00b39b;
+    margin: 50px 150px 50px 150px;
+    font-size: 1.625em;
+    width: 200px;
+}
+
+.links {
+    width: 700px;
+}
+
+.section2 {
+    background: #e5faf8;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 700px;
+}
+
+.headsection2 h1 {
+    color: #00b39b;
+    font-size: 30px;
+}
+
+.headsection2 {
+    width: 500px;
+    margin-right: 100px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.headsection2 img {
+    margin-top: 250px;
+}
+
+.para1 {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.para2 {
+    text-align: center;
+}
+
+.partie {
+    border-style: hidden;
+    background-color: white;
+    border-radius: 10px;
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+    padding: 10px
+}
+
+.partie h3 {
+    color: #00b39b;
+    font-size: 20px;
+}
+
+#text {
+    text-align: center;
+    margin: auto;
+    width: 500px;
+}
+
+#text h1 {
+    color: #00b39b;
+    font-size: 30px;
+}
+
+#countries {
+    display: flex;
+    flex-wrap: wrap;
+    /*margin: 0% 20%;*/
+    justify-content: center;
+}
+
+#countries p {
+    padding: 10px;
+}
+
+.country {
+    margin: 20px;
+    border: 1px solid #88888813;
+    border-radius: 10px;
+}
+
+.country img {
+    border-radius: 5px;
+}
+
+.country:hover {
+    box-shadow: 7px 7px 50px 10px #88888848;
+}
+
+.name {
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+#countries button {
+    height: 30px;
+    margin-top: 10px;
+    background-color: #3d83df;
+    color: white;
+    border-radius: 5px;
+    border-style: hidden;
+    font-size: 10px;
+}
+
+#countries button a {
+    color: white;
+    text-decoration: none;
+}
+
+#countries button:hover {
+    background-color: rgb(38, 85, 226);
+}
+
+.lastsection {
+    margin: 50px;
+    font-size: 30px;
+}
+
+.lastsection button {
+    font-size: 18px;
+    height: 40px;
+    width: 300px;
+    border-style: hidden;
+    background-color: #3d83df;
+    border-radius: 5px;
+}
+
+.lastsection button a {
+    color: white;
+    text-decoration: none;
+}
+
+.lastsection button:hover {
+    background-color: rgb(38, 85, 226);
+}
+
+footer {
+    font-size: 11px;
+    font-family: Roboto, Arial, sans-serif;
+    color: #747474;
+    text-align: center;
+}
